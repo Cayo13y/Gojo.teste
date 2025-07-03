@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔵 Desafio 01 🔴</title>
+</head>
+<body>
+    <main id="caixa">
+        <h1>Esse é o desafio do Mais Honrado!!</h1>
+
+        <picture id="gojo">
+            <img src="imagem/Satoru_Gojo.png" alt="Satoru">
+        </picture>
+
+        <p>Texto full aleatório 🔵 + 🔴 = 🟣</p>
+
+        <audio controls id="satoru">
+            <source src="imagem/Rap do Satoru Gojo (Jujutsu Kaisen) ｜ Mundo Infinito ｜ Enygma 88.mp3" type="audio/mp3">
+        </audio>
+    </main>
+</body>
+<style>
+   body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 30px;
+   }
+
+   #caixa {
+    width: 300px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   }
+
+   #caixa:hover {
+    background-color: blueviolet;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+   }
+   
+   #caixa:hover h1 {
+    color: white;
+   }
+
+   #caixa:hover p {
+    color: white;
+   }
+
+   #caixa > h1 {
+    justify-content: center;
+    height: 59px;
+    align-items: center;
+    padding-left: 7px;
+   }
+
+   #caixa > p {
+    justify-content: center;
+    height: 59px;
+    align-items: center;
+    padding-left: 37px;
+   }
+
+   #gojo {
+    object-fit: cover;
+    padding: 25px;
+   }
+</style>
+</html>
